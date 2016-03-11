@@ -1,0 +1,14 @@
+# PlayerTrails Config Version 1.2
+# Made by cluter123
+# Support: Message me @ https://bukkit.org/members/cluter123.90802646/
+
+# The item in the inventory needed to activate the trail. If the item has two words, please be sure to replace the space with an underscore. ex: Diamond_Sword
+item: STICK
+# What trail will it be? ex: snow, fire, etc. Use Snow or Fire or whatever block you wish :D
+trail: SNOW
+# Time to leave the trail. Time is in ticks. 20 ticks = 1 second. DEFAULT: 30
+time: 30
+# Message to send the player when the player turns on their trail via /trail on
+OnMessage: '&aYour player trail has been turned on.'
+# Message to send the player when the player turns off their trail via /trail off
+OffMessage: '&aYour player trail has been turned off.'
